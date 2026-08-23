@@ -1,0 +1,382 @@
+[
+  {
+    "id": 1,
+    "title": "Set up CI/CD pipeline",
+    "description": "Configure GitHub Actions for automated testing and deployment",
+    "status": "done",
+    "priority": "high",
+    "assignee": "Alice Chen",
+    "dueDate": "2025-08-10",
+    "createdAt": "2025-07-20",
+    "completedAt": "2025-08-09",
+    "sprintId": 1,
+    "comments": [
+      { "id": 1, "taskId": 1, "author": "Bob Smith", "text": "I've already set up the basic workflow", "createdAt": "2025-07-21" }
+    ]
+  },
+  {
+    "id": 2,
+    "title": "Design system documentation",
+    "description": "Document all components, variants, and usage guidelines",
+    "status": "done",
+    "priority": "medium",
+    "assignee": "Diana Lee",
+    "dueDate": "2025-08-15",
+    "createdAt": "2025-07-22",
+    "completedAt": "2025-08-14",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 3,
+    "title": "User authentication module",
+    "description": "Implement login, registration, and password reset flows",
+    "status": "done",
+    "priority": "critical",
+    "assignee": "Alice Chen",
+    "dueDate": "2025-08-05",
+    "createdAt": "2025-07-18",
+    "completedAt": "2025-08-04",
+    "sprintId": 1,
+    "comments": [
+      { "id": 2, "taskId": 3, "author": "Alice Chen", "text": "PR is ready for review", "createdAt": "2025-08-03" }
+    ]
+  },
+  {
+    "id": 4,
+    "title": "API rate limiting",
+    "description": "Implement rate limiting on all public endpoints",
+    "status": "review",
+    "priority": "high",
+    "assignee": "Bob Smith",
+    "dueDate": "2025-08-20",
+    "createdAt": "2025-07-25",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 5,
+    "title": "Database migration scripts",
+    "description": "Create scripts for v2 schema migration with rollback support",
+    "status": "review",
+    "priority": "high",
+    "assignee": "Carol Davis",
+    "dueDate": "2025-08-18",
+    "createdAt": "2025-07-23",
+    "sprintId": 1,
+    "comments": [
+      { "id": 3, "taskId": 5, "author": "Carol Davis", "text": "Migration tested on staging", "createdAt": "2025-08-16" }
+    ]
+  },
+  {
+    "id": 6,
+    "title": "Search functionality",
+    "description": "Implement full-text search with filtering and pagination",
+    "status": "in-progress",
+    "priority": "medium",
+    "assignee": "Diana Lee",
+    "dueDate": "2025-08-25",
+    "createdAt": "2025-07-28",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 7,
+    "title": "Notification system",
+    "description": "Build real-time notification system using WebSockets",
+    "status": "in-progress",
+    "priority": "medium",
+    "assignee": "Alice Chen",
+    "dueDate": "2025-08-28",
+    "createdAt": "2025-07-30",
+    "sprintId": 1,
+    "comments": [
+      { "id": 4, "taskId": 7, "author": "Alice Chen", "text": "WebSocket handler implemented", "createdAt": "2025-08-10" }
+    ]
+  },
+  {
+    "id": 8,
+    "title": "Dashboard analytics",
+    "description": "Build analytics widgets for the main dashboard page",
+    "status": "in-progress",
+    "priority": "high",
+    "assignee": "Bob Smith",
+    "dueDate": "2025-08-22",
+    "createdAt": "2025-07-26",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 9,
+    "title": "Mobile responsive layout",
+    "description": "Ensure all pages are fully responsive down to 320px width",
+    "status": "in-progress",
+    "priority": "high",
+    "assignee": "Eve Wilson",
+    "dueDate": "2025-08-24",
+    "createdAt": "2025-07-27",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 10,
+    "title": "Performance optimization",
+    "description": "Optimize bundle size, implement lazy loading, and improve Core Web Vitals",
+    "status": "backlog",
+    "priority": "medium",
+    "assignee": "Carol Davis",
+    "dueDate": "2025-09-01",
+    "createdAt": "2025-08-01",
+    "sprintId": 2,
+    "comments": []
+  },
+  {
+    "id": 11,
+    "title": "Error tracking integration",
+    "description": "Integrate Sentry for error monitoring and performance tracking",
+    "status": "backlog",
+    "priority": "low",
+    "assignee": "Bob Smith",
+    "dueDate": "2025-09-05",
+    "createdAt": "2025-08-02",
+    "sprintId": 2,
+    "comments": []
+  },
+  {
+    "id": 12,
+    "title": "E2E test suite",
+    "description": "Write end-to-end tests for critical user flows using Playwright",
+    "status": "backlog",
+    "priority": "high",
+    "assignee": "Diana Lee",
+    "dueDate": "2025-09-10",
+    "createdAt": "2025-08-03",
+    "sprintId": 2,
+    "comments": []
+  },
+  {
+    "id": 13,
+    "title": "Dark mode support",
+    "description": "Implement system-aware dark mode with manual toggle",
+    "status": "done",
+    "priority": "low",
+    "assignee": "Eve Wilson",
+    "dueDate": "2025-08-12",
+    "createdAt": "2025-07-21",
+    "completedAt": "2025-08-11",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 14,
+    "title": "File upload component",
+    "description": "Build reusable file upload with drag-and-drop and preview",
+    "status": "done",
+    "priority": "medium",
+    "assignee": "Carol Davis",
+    "dueDate": "2025-08-08",
+    "createdAt": "2025-07-19",
+    "completedAt": "2025-08-07",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 15,
+    "title": "WebSocket reconnection logic",
+    "description": "Implement exponential backoff reconnection for WebSocket connections",
+    "status": "review",
+    "priority": "high",
+    "assignee": "Alice Chen",
+    "dueDate": "2025-08-19",
+    "createdAt": "2025-07-24",
+    "sprintId": 1,
+    "comments": [
+      { "id": 5, "taskId": 15, "author": "Bob Smith", "text": "Edge cases handled well", "createdAt": "2025-08-17" }
+    ]
+  },
+  {
+    "id": 16,
+    "title": "Internationalization setup",
+    "description": "Set up i18n with support for English, Spanish, and French",
+    "status": "backlog",
+    "priority": "low",
+    "assignee": "Diana Lee",
+    "dueDate": "2025-09-15",
+    "createdAt": "2025-08-05",
+    "sprintId": 2,
+    "comments": []
+  },
+  {
+    "id": 17,
+    "title": "Accessibility audit",
+    "description": "Run axe-core audit and fix all critical and serious issues",
+    "status": "in-progress",
+    "priority": "high",
+    "assignee": "Eve Wilson",
+    "dueDate": "2025-08-23",
+    "createdAt": "2025-07-29",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 18,
+    "title": "Role-based access control",
+    "description": "Implement RBAC with admin, editor, and viewer roles",
+    "status": "backlog",
+    "priority": "critical",
+    "assignee": "Alice Chen",
+    "dueDate": "2025-09-08",
+    "createdAt": "2025-08-04",
+    "sprintId": 2,
+    "comments": []
+  },
+  {
+    "id": 19,
+    "title": "API documentation",
+    "description": "Generate OpenAPI/Swagger documentation for all endpoints",
+    "status": "done",
+    "priority": "medium",
+    "assignee": "Carol Davis",
+    "dueDate": "2025-08-11",
+    "createdAt": "2025-07-20",
+    "completedAt": "2025-08-10",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 20,
+    "title": "Unit test coverage",
+    "description": "Achieve 80% unit test coverage across all modules",
+    "status": "in-progress",
+    "priority": "medium",
+    "assignee": "Diana Lee",
+    "dueDate": "2025-08-27",
+    "createdAt": "2025-07-31",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 21,
+    "title": "SSR implementation",
+    "description": "Implement server-side rendering for initial page load performance",
+    "status": "backlog",
+    "priority": "low",
+    "assignee": "Bob Smith",
+    "dueDate": "2025-09-20",
+    "createdAt": "2025-08-06",
+    "sprintId": 2,
+    "comments": []
+  },
+  {
+    "id": 22,
+    "title": "Caching strategy",
+    "description": "Implement Redis caching with cache invalidation patterns",
+    "status": "backlog",
+    "priority": "medium",
+    "assignee": "Carol Davis",
+    "dueDate": "2025-09-12",
+    "createdAt": "2025-08-07",
+    "sprintId": 2,
+    "comments": []
+  },
+  {
+    "id": 23,
+    "title": "Form validation library",
+    "description": "Build reusable form validation with Zod schemas",
+    "status": "done",
+    "priority": "medium",
+    "assignee": "Eve Wilson",
+    "dueDate": "2025-08-07",
+    "createdAt": "2025-07-18",
+    "completedAt": "2025-08-06",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 24,
+    "title": "Log aggregation system",
+    "description": "Set up centralized logging with ELK stack",
+    "status": "review",
+    "priority": "low",
+    "assignee": "Bob Smith",
+    "dueDate": "2025-08-21",
+    "createdAt": "2025-07-25",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 25,
+    "title": "Payment integration",
+    "description": "Integrate Stripe payment processing with webhook handling",
+    "status": "in-progress",
+    "priority": "critical",
+    "assignee": "Carol Davis",
+    "dueDate": "2025-08-26",
+    "createdAt": "2025-07-28",
+    "sprintId": 1,
+    "comments": [
+      { "id": 6, "taskId": 25, "author": "Carol Davis", "text": "Stripe SDK integration done, working on webhooks", "createdAt": "2025-08-15" }
+    ]
+  },
+  {
+    "id": 26,
+    "title": "Feature flags system",
+    "description": "Implement feature flag system for gradual rollouts",
+    "status": "backlog",
+    "priority": "low",
+    "assignee": "Alice Chen",
+    "dueDate": "2025-09-18",
+    "createdAt": "2025-08-08",
+    "sprintId": 2,
+    "comments": []
+  },
+  {
+    "id": 27,
+    "title": "Load testing",
+    "description": "Perform load testing with k6 and document results",
+    "status": "backlog",
+    "priority": "medium",
+    "assignee": "Diana Lee",
+    "dueDate": "2025-09-22",
+    "createdAt": "2025-08-09",
+    "sprintId": 2,
+    "comments": []
+  },
+  {
+    "id": 28,
+    "title": "Container orchestration",
+    "description": "Set up Kubernetes manifests for staging and production",
+    "status": "in-progress",
+    "priority": "high",
+    "assignee": "Bob Smith",
+    "dueDate": "2025-08-29",
+    "createdAt": "2025-07-30",
+    "sprintId": 1,
+    "comments": []
+  },
+  {
+    "id": 29,
+    "title": "Security hardening",
+    "description": "Implement CSP headers, XSS protection, and SQL injection prevention",
+    "status": "backlog",
+    "priority": "critical",
+    "assignee": "Eve Wilson",
+    "dueDate": "2025-09-06",
+    "createdAt": "2025-08-01",
+    "sprintId": 2,
+    "comments": []
+  },
+  {
+    "id": 30,
+    "title": "Onboarding documentation",
+    "description": "Create developer onboarding guide with setup instructions",
+    "status": "done",
+    "priority": "low",
+    "assignee": "Diana Lee",
+    "dueDate": "2025-08-06",
+    "createdAt": "2025-07-17",
+    "completedAt": "2025-08-05",
+    "sprintId": 1,
+    "comments": []
+  }
+]
